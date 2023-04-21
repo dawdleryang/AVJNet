@@ -12,5 +12,7 @@ python Preprocess.py
 
 4) run the training and testing by AVJ_latest_train.py and AVJ_latest_test.py
 
-5) the pre-trained model and converted onnx could be found in <a href="https://drive.google.com/drive/folders/1j9e8KWt9HoXDdEyENmJIP0vW3ZgTyYuM?usp=sharing">
+5) the pre-trained model and converted onnx could be found <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"><b>Here</b></a> 
+
+in <a href="https://drive.google.com/drive/folders/1j9e8KWt9HoXDdEyENmJIP0vW3ZgTyYuM?usp=sharing">
  this link </a>
