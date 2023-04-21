@@ -11,3 +11,6 @@ python AVJ_Split.py
 python Preprocess.py
 
 4) run the training and testing by AVJ_latest_train.py and AVJ_latest_test.py
+
+5) the pre-trained model and converted onnx could be found in <a href="https://drive.google.com/drive/folders/1j9e8KWt9HoXDdEyENmJIP0vW3ZgTyYuM?usp=sharing">
+ this link </a>
