@@ -1,0 +1,13 @@
+#########pre-processing##############
+
+1) rename the avi and related lat&sep, add prefix to avoid the cases that patient id is identical in various folders
+for file in * ; do mv -- "$file" "prefix_$file" ; done
+rename 's/infrared/rgb/' *.jpg 
+
+2) split data to training and testing, pre make dir of folders ./data/training and ./data/testing (as well as ./data/training/frames/ ./data/testing/frames for next step)
+python AVJ_Split.py
+
+3) pre-process training and testing dataset to fit into regression model, i.e., point coordinates and frame extraction
+python Preprocess.py
+
+4) run the training and testing by AVJ_latest_train.py and AVJ_latest_test.py
